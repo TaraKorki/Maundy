@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    
+}
+body{
+    background: url("../img/bg.jpg") top center no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+
+.BootstrapMade{
+    text-decoration: none;
+}
+
+.sun{
+    text-decoration: none;
+}
+
+.bar-chart{
+    text-decoration: none;
+}
+
+.bag{
+    text-decoration: none;
+}
+
+.countdown-timer-section {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* width: 100px; */
+    padding: 20px;
+    margin: 20px;
+}
+
+.social-medias{
+    text-decoration: none;
+}
+
+.form{
+    display: inline-block;
+    text-align: center;
+}
+
+.subscribe-button {
+    display: inline-block;
+    background-color: #24b7a4; 
+    color: white;
+    border: none; 
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+}
