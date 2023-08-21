@@ -1,58 +1,286 @@
 * {
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
     
 }
+
+body::before{
+    background-color: rgba(49, 71, 89, 0.6);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+
 body{
     background: url("../img/bg.jpg") top center no-repeat fixed;
     background-size: cover;
     color: #fff;
     text-align: center;
+    margin: 0px;
+    position: relative;
 }
 
 
-.BootstrapMade{
-    text-decoration: none;
+/* header */
+
+.header{
+    padding: 100px 0px;
 }
 
-.sun{
-    text-decoration: none;
+.header-cont{
+    margin: 0px 99.6px;
+    padding: 0px 12px;
 }
 
-.bar-chart{
-    text-decoration: none;
+.header h1, h2, h4{
+    font-family: "Raleway", sans-serif;
 }
 
-.bag{
-    text-decoration: none;
+.header h1{
+    display: inline-block;
+    font-size: 48px;
+    margin: 0px 0px 10px;
+}
+
+.header  h2{
+    font-size: 22px;
+    margin: 0px 0px 40px;
+    font-weight: normal;
+}
+
+.header h4{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 12px;
+}
+
+.countdown-timer-container{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 80px;
 }
 
 .countdown-timer-section {
     display: inline-block;
-    font-size: 32px;
+    font-size: 16px;
     font-weight: bold;
     border: 2px solid white;
     border-radius: 10px;
-    /* width: 100px; */
-    padding: 20px;
-    margin: 20px;
+    width: 100px;
+    padding: 15px 0px;
+    margin: 10px;
 }
 
-.social-medias{
-    text-decoration: none;
+.countdown-timer-section .values{
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    margin: 0px 0px 15px;
+}
+
+.countdown-timer-section .dates{
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    margin: 0px 0px 8px;
+}
+
+.countdown-timer-section > span {
+    display: block;
 }
 
 .form{
-    display: inline-block;
+   
     text-align: center;
 }
 
-.subscribe-button {
+.form-sub {
     display: inline-block;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 10px 0px 0px;
+    padding: 6px 10px;
+    width: 100%;
+    max-width: 400px;
+    /* margin-top: 10px; */
+}
+
+.form-sub .email{
+    border: #fff;
+    padding: 4px 8px;
+    width: 90%;
+}
+
+.form-sub .submit {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    font-size: 16px;
     background-color: #24b7a4; 
     color: white;
     border: none; 
     cursor: pointer;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: larger;
+    padding: 4px 20px;
+    border-radius: 50px;
+    margin: -6px 0px -6px -80px ;
+}
+
+.social-medias{
+    display: inline-block;
+    margin: 40px 0px 0px;
+}
+ .social-medias a{
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 3px;
+    width: 48px;
+    height: 48px;
+}
+.social-medias a i{
+    display: block;
+    height: 16px;
+    width: 16px;
+    
+}
+
+.social-medias a:hover{
+    background-color: #24b7a4;
+    transition: 0.5s;
+    border: 1px solid #24b7a4;
+}
+
+
+
+/* body2 */
+
+.body2{
+    padding: 60px 0px;
+}
+
+.body2  div{
+    margin: 0px 0px 20px;
+    padding: 0px 12px;
+}
+
+.body2 .title{
+    margin: 0px;
+    padding: 0px 0px 30px;
+}
+
+.body2 .title h2{
+    font-size: 32px;
+    margin: 0px;
+    padding: 0px 0px 20px;
+}
+
+.line{
+    width: 50px;
+    margin: 0px auto  20px ;
+    border: 2px solid #24b7a4 ;
+}
+
+.body2 a{
+    font-family: "Raleway", sans-serif;
+}
+
+.bag i{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 0px 10px 0px;
+    width: 30px;
+    height: 50px;
+}
+
+.bar-chart i{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 0px 10px 0px;
+    width: 30px;
+    height: 50px;
+}
+
+.sun i{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 0px 10px 0px;
+    width: 30px;
+    height: 50px;
+}
+
+.body2 >div h4 a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.body2 >div h4{
+    font: none;
+    margin: 0px 0px 15px;
+}
+
+.body2 > div > .dscrp{
+    margin: 0px;
+}
+
+.body2 .bag, .bar-chart, .sun{
+    display: inline-block;
+}
+
+.body2 .sun  p{
+    font-size: 14px;
+    margin: 0px 0px 16px;
+}
+
+.body2 .bag  p{
+    font-size: 14px;
+    margin: 0px 0px 16px;
+}
+
+.body2 .bar-chart  p{
+    font-size: 14px;
+    margin: 0px 0px 16px;
+}
+
+
+/* footer */
+
+footer{
+    background: rgba(38, 55, 69, 0.4);
+    padding: 30px 0px;
+    font-size: 14px;
+}
+
+
+.credits{
+    font-size: 13px;
+    padding: 10px 10px 0px;
+}
+
+.credits .BootstrapMade{
+    text-decoration: none;
+    color: #24b7a4;
+}
+
+.cred-container{
+    margin: 0px 19.6px;
+    padding: 0px 12px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .header-cont {
+        margin: 0;
+    }
 }

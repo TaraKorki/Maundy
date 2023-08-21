@@ -15,38 +15,38 @@
 <body>
     <div class="all">
         <header class="header">
-            <div>
+            <div class="header-cont">
                 <h1>Maundy</h1>
 
                 <h2>We're working hard to improve our website and we'll ready to launch after</h2>
 
                 <div class="countdown-timer-container">
                     <div class="countdown-timer-section" id="days">
-                        <span>131</span>
-                        <span>Days</span>
+                        <span class="values">131</span>
+                        <span class="dates">Days</span>
                     </div>
                     <div class="countdown-timer-section" id="hours">
-                        <span>11</span>
-                        <span>Hours</span>
+                        <span class="values">11</span>
+                        <span class="dates">Hours</span>
                     </div>
                     <div class="countdown-timer-section" id="minutes">
-                        <span>48</span>
-                        <span>Minutes</span>
+                        <span class="values">48</span>
+                        <span class="dates">Minutes</span>
                     </div>
                     <div class="countdown-timer-section" id="seconds">
-                        <span>54</span>
-                        <span>Seconds</span>
+                        <span class="values">54</span>
+                        <span class="dates">Seconds</span>
                     </div>
                 </div>
 
                 <div class="form">
                     <h4>Subscribe now to get the latest updates!</h4>
-                    <form action="">
-                        <input type="email" required="">
-                        <div>
-                            <button class="subscribe-button">Subscribe</button>
-                        </div>
-                    </form>
+                        <form action="">
+                            <div class="form-sub">
+                                <input class="email" type="email" required>
+                                <input class="submit" type="submit" value="Subscribe">
+                            </div>
+                        </form>    
                 </div>
 
                 <div class="social-medias">
@@ -69,7 +69,6 @@
 
                 </div>
 
-                
             </div>
         </header>
 
@@ -77,31 +76,39 @@
 
             <div class="title">
                 <h2>ABOUT US</h2>
-                <p>
+                <hr class="line">
+                <p class="dscrp">
                     Illo velit quae dolorem voluptate pireda notila set. Corrupti voluptatum tempora iste ratione deleniti corrupti nostrum ut
                 </p>
             </div>
-
+            
             <div class="bag">
-                <img src="" alt="bag">
-                <a href="#" class="bag">Lorem Ipsum</a>
+                <h4>
+                    <a href="#" id="bag" >
+                        <i class="fa-solid fa-bag-shopping fa-2x"></i> <br>LOREM IPSUM</a>
+                </h4>
                 <p>
-                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+                    Voluptatum deleniti atque corrupti quos dolores et quas <br> molestias excepturi sint occaecati cupiditate non provident
                 </p>
             </div>
 
             <div class="bar-chart">
-                <a href="#" class="bar-chart">DOLOR SITEMA</a>
+                <h4>
+                    <a href="#" id="bar-chart">
+                        <i class="fa-solid fa-chart-column fa-2x"></i> <br>DOLOR SITEMA</a>
+                </h4>
                 <P>
-                    Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+                    Minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat tarad limino ata
                 </P>
             </div>
 
             <div class="sun">
-                <img src="" alt="sun">
-                <a href="#" class="sun">Sed ut perspiciatis</a>
+                <h4>
+                    <a href="#" id="sun">
+                        <i class="fa-regular fa-sun fa-2x"></i> <br>SED UT PERSPICIATIS</a>
+                </h4>
                 <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse <br> cillum dolore eu fugiat nulla pariatur
                 </p>
             </div>
         </div>
@@ -109,13 +116,18 @@
         <div class="footer">
             <footer>
 
-                <div class="copyright">
-                    &COPY; Copyright <span>Maundy.</span> All Rights Reserved</p>
+                <div class="cred-container">
+
+                    <div class="copyright">
+                        &COPY; Copyright <strong><span>Maundy.</span></strong> All Rights Reserved</p>
+                    </div>
+                    
+                    <div class="credits">
+                        Designed by <a href="#" class="BootstrapMade"> BootstrapMade</a>
+                    </div>
+
                 </div>
-                
-                <div class="credits">
-                    Designed by <a href="#" class="BootstrapMade"> BootstrapMade</a>
-                </div>
+                    
             </footer>
         </div>
     </div>
